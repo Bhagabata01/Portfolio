@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jerry - Devloper Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: "Poppins", serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(149, 149, 227);
+            font-size: 1.01rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 40px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2rem;
+
+
+        }
+
+        .leftSection .buttons {
+            padding: 50px 0;
+        }
+
+        .leftSection .btn {
+            padding: 8px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+            margin-right: 10px;
+
+
+        }
+
+
+        .rightSection img {
+            width: 100%;
+
+
+        }
+
+        .purple {
+            color: rgb(145, 81, 205);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(145, 81, 205);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.7rem;
+
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: #0e0e1a;
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+
+        }
+
+        footer .footer-text-center {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Jerry - Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Jerry</span>
+
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Git-Hub</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="D:\CodeWithRandom\devloperpng.webp" alt="">
+            </div>
+
+        </section>
+        <hr>
+
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="D:\CodeWithRandom\dev1.png" alt="">
+                    <div class="vertical-title">
+                        HTML Devloper-Pintrest (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Proficient in HTML, with experience in structuring and developing responsive web pages, ensuring
+                        clean and semantic code for better accessibility and SEO.
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="d:\CodeWithRandom\facebook.jpeg" alt="">
+                    <div class="vertical-title">
+                        Node JS Devloper-Facebook (2012-2014)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia reprehenderit quam tenetur
+                        dolor dicta, nulla aut et a ab ipsam. Magni odio asperiores mollitia quos cum officiis magnam
+                        est non.
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="D:\CodeWithRandom\instagram black.webp" alt="">
+                    <div class="vertical-title">
+                        HTML Devloper-Instagram (2014-2015)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia reprehenderit quam tenetur
+                        dolor dicta, nulla aut et a ab ipsam. Magni odio asperiores mollitia quos cum officiis magnam
+                        est non.
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="D:\CodeWithRandom\twitter.webp" alt="">
+                    <div class="vertical-title">
+                        HTML Devloper-Twitter (2015-2016)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia reprehenderit quam tenetur
+                        dolor dicta, nulla aut et a ab ipsam. Magni odio asperiores mollitia quos cum officiis magnam
+                        est non.
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="d:\CodeWithRandom\youtube.png" alt="">
+                    <div class="vertical-title">
+                        Software Devloper YouTube (2017-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia reprehenderit quam tenetur
+                        dolor dicta, nulla aut et a ab ipsam. Magni odio asperiores mollitia quos cum officiis magnam
+                        est non.
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Jerry's Devloper portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="footer-text-center">
+            Copyright &copy; www.jerrysporfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Devloper', 'Graphic Desgner', 'Web Designer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
